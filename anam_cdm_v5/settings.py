@@ -80,32 +80,33 @@ DATABASE_ROUTERS = [
     'cdm.dbrouter.MultiDBRouter',
 ]
 
+### Database should be connected
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'anam_cdm_v5',
-        'USER': 'kumccdmmaster',
-        'PASSWORD':'chlrhdi!@3',
-        'HOST': '49.50.175.170',
-        'PORT': '5432',
+        'NAME': '-',
+        'USER': '-',
+        'PASSWORD':'-',
+        'HOST': '-',
+        'PORT': '-',
     },
     'ansan_DB': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ansan_cdm_v5',
-        #'NAME': 'ansan_cmd_v5',
-        'USER': 'kumccdmmaster',
-        'PASSWORD': 'chlrhdi!@3',
-        'HOST': '49.50.175.170',
-        'PORT': '5432',
+        'NAME': '-',
+        #'NAME': '-',
+        'USER': '-',
+        'PASSWORD': '-',
+        'HOST': '-',
+        'PORT': '-',
     },
     'guro_DB': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'guro_cdm_v5',
-        #'NAME': 'guro_cmd_v5',
-        'USER': 'kumccdmmaster',
-        'PASSWORD': 'chlrhdi!@3',
-        'HOST': '49.50.175.170',
-        'PORT': '5432',
+        'NAME': '-',
+        #'NAME': '-',
+        'USER': '-',
+        'PASSWORD': '-',
+        'HOST': '-',
+        'PORT': '-',
     },
 
 }
